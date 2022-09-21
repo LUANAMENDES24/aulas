@@ -15,16 +15,17 @@ def div(n1, n2):
     return s
 
 def resto(n1,n2):
-    s =  n1 % n2      
-    return  s 
+    s =  n1 // n2
+    d = n1 % n2      
+    return  s , d 
 
 print("emily, por favor, escolha um operação matemágica")
 
 print("1- soma")
 print("2- subtração")
-print("4- multiplicação")
-print("5- divisão")
-print("6- resto")
+print("3- divisão")
+print("3- multiplicação")
+print("5- resto")
 
 opcao = input("opção escolhida: ")
 
